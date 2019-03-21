@@ -11,7 +11,7 @@ steps:
 - script: |
     npm install
     npm test
-  displayName: "NPM Install/Test"
+  displayName: "NPM Install Test"
 
 - task: PublishTestResults@2
   inputs:
