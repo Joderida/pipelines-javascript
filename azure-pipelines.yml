@@ -10,7 +10,7 @@ strategy:
       poolName: Hosted macOS High Sierra
     windows:
       # imageName: 'vs2017-win2016'
-      poolName: Hosted VS2017
+      poolName: Self Hosted VS
 
 pool:
   # vmImage: $(imageName)
