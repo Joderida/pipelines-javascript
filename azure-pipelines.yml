@@ -3,14 +3,18 @@
 strategy:
   matrix:
     linux:
-      imageName: 'ubuntu-16.04'
+      # imageName: 'ubuntu-16.04'
+      poolName: Hosted Ubuntu 1604
     mac:
-      imageName: 'macos-10.13'
+      # imageName: 'macos-10.13'
+      poolName: Hosted macOS High Sierra
     windows:
-      imageName: 'vs2017-win2016'
+      # imageName: 'vs2017-win2016'
+      poolName: Hosted VS2017
 
 pool:
-  vmImage: $(imageName)
+  # vmImage: $(imageName)
+  name: $(poolName)
 
 steps:
 - task: NodeTool@0
