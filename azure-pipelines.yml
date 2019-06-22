@@ -6,9 +6,9 @@ strategy:
     linux:
       # imageName: 'ubuntu-16.04'
       poolName: Hosted Ubuntu 1604
-    mac:
+    # mac:
       # imageName: 'macos-10.13'
-      poolName: Hosted macOS High Sierra
+      # poolName: Hosted macOS High Sierra
     # windows:
       # imageName: 'vs2017-win2016'
       # poolName: Self Hosted VS
